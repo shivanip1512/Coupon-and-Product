@@ -8,10 +8,11 @@
 </head>
 <body>
 	<h1>Create Product</h1>
-	<form action="">
+	<form action="product" method="post">
 		<pre>
 Product Name : <input type="text" name="name"><br>
-Description : <input type="text" name="discription"><br>
+Description : <input type="text" name="description"><br>
+Coupon Code : <input type="text" name="couponCode"><br>
 Price : <input type="text" name="price"><br>
 <input type="submit" value="Save">
 </pre>
